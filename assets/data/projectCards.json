@@ -1,0 +1,25 @@
+{
+  "projectCards": [
+    {
+      "imgUrl": "lucky-barber.png",
+      "title": "Kounia morou",
+      "tech": "Bebe Stars A.E.",
+      "desc": "9-36kg",
+      "link": "http://www.lucky-barber.com/"
+    },
+    {
+      "imgUrl": "sparwelt.png",
+      "title": "Kounia morou",
+      "tech": "Mothercare",
+      "desc": "9-36kg",
+      "link": "https://www.sparwelt.de/"
+    },
+    {
+      "imgUrl": "notes.png",
+      "title": "Kathhsmataki",
+      "tech": "Bebe Stars A.E.",
+      "desc": "9-36kg",
+      "link": "https://stavros-liaskos.github.io/notes/"
+    }
+  ]
+}

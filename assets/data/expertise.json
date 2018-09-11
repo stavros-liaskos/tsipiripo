@@ -1,0 +1,38 @@
+{
+  "expetiseMainContent": {
+    "title": "Προσφέρουμε",
+    "desc": "I've got chops in all phases of the development process."
+  },
+  "expertiseCards": [
+    {
+      "title": "Strategy",
+      "icon": "fas fa-gavel",
+      "desc": "Prosferoume unarmologhsh sto spiti. mpla mpla mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla "
+    },
+    {
+      "title": "Code",
+      "icon": "fas fa-code",
+      "desc": "I design in the browser with HTML(5), CSS(3) and a ES6. I love coding things from scratch, but I can work with Frontend frameworks like Vue.js, React.js, Bootstrap etc."
+    },
+    {
+      "title": "Performance",
+      "icon": "fas fa-tachometer-alt",
+      "desc": "Have you visited a website from an old smart phone under a slow network connection? And then, have you visited that website ever again..?"
+    },
+    {
+      "title": "Εξυπηρετηση",
+      "icon": "fas fa-user-plus",
+      "desc": "Mporeitai na mas vreite online kai sta ekshs thelfona. mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla "
+    },
+    {
+      "title": "Creative",
+      "icon": "fas fa-lightbulb",
+      "desc": "Backed by an extensive experience and a personality which demands to know the latest news in the business, I create a broad range of applications with a focus on web design."
+    },
+    {
+      "title": "Παιχνιδια",
+      "icon": "fas fa-space-shuttle",
+      "desc": "Τα πιο γαματα παιχνίδια για τα πιο γαμάτα παιδιά!"
+    }
+  ]
+}
