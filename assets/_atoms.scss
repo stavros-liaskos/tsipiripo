@@ -47,7 +47,8 @@ $bg_caret: $color_white;
 $bg_header_outer: $color_mustard;
 $bg_header_between: $color_vase;
 $bg_header_inner: $color_salmon;
-$bg_header: $color_electro;
+$bg_header: linear-gradient(171deg, #7966f3, #a851e2);
+$header_height: 60px;
 //$bg_header: linear-gradient(to right, $bg_header_outer 10%, $bg_header_between 20%, $bg_header_inner 30%, $bg_header_between 40%, $bg_header_outer 40%);
 
 .bg-main {
@@ -247,7 +248,7 @@ label {
 }
 
 p {
-  color: $text_main_secondary;
+  color: $text_main;
   line-height: 1.9rem;
 }
 
@@ -595,12 +596,13 @@ $pulse_4: #d8f6e7;
   margin-bottom: 0;
   padding: $space_7 0;
   border-bottom: dashed $color_grey_10;
+  min-height: 100vh;
   @extend .z-3; // place content on top of particles
 }
 
 @include breakpoint($breakpoint_screen_md) {
   .section {
-    min-height: 100vh;
+    min-height: calc(100vh - 60px);
     overflow: auto;
     margin-bottom: $space_7;
 

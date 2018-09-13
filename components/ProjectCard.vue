@@ -54,7 +54,7 @@
     max-height: $card_height;
     background: $card_bg_color;
     margin: 0 $space_2 $space_7;
-    box-shadow: 5px 5px 3px #676565;
+    box-shadow: 3px 0px 33px 0px $color_sky;
     border: 1px solid $color_grey_60;
     border-radius: 15px;
 

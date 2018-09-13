@@ -3,9 +3,9 @@
     <h1 class="desc-title">Hi, I'm Stavros.</h1>
     <h2 class="desc-title h1">I design & build</h2>
 
-<!--
-    <vue-typer v-bind="{text: typedTxt}" initial-action='erasing'></vue-typer>
--->
+    <!--
+        <vue-typer v-bind="{text: typedTxt}" initial-action='erasing'></vue-typer>
+    -->
 
 
     <div class="learn-more text-center">
@@ -58,7 +58,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh; // because .section uns  ets height for mobile
 
     .learn-more {
       position: absolute;

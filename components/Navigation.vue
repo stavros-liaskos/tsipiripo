@@ -4,7 +4,7 @@
     <navi-toolbar/>
 
     <div class="menu-container">
-      <div class="menu-wrapper">
+      <div class="menu-wrapper z-2">
         <ul class="menu-list">
 
           <li class="menu-item">
@@ -23,6 +23,9 @@
           </li>
         </ul>
       </div>
+
+      <div class="accent accent-one hidden"></div>
+      <div class="accent accent-two hidden"></div>
     </div>
   </div>
 </template>
@@ -85,6 +88,7 @@
     }
 
     .menu-container {
+      position: relative;
       height: 100%;
       text-align: center;
       padding: 12% 0;
@@ -125,12 +129,14 @@
       top: 0;
       left: 0;
       right: 0;
-      height: 60px;
+      height: $header_height;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
 
       transition: none;
 
       .menu-container {
         padding: 0;
+        overflow: hidden;
 
         .menu-wrapper {
           padding: 0 $space_8;
@@ -145,6 +151,30 @@
             }
           }
         }
+      }
+
+      .accent {
+        position: absolute;
+        top: 0;
+        display: block;
+        height: $header_height;
+      }
+
+      .accent-one {
+        width: 56%;
+        min-height: $header_height;
+        transition: transform .25s linear;
+        transform: skewX(-40deg) translateX(100%);
+        background: linear-gradient(-171deg, #9b9bfd, #7966f3);
+      }
+
+      .accent-two {
+        width: 56%;
+        min-height: $header_height;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        transform: skewX(30deg) translateX(-57%);
+        transition: transform .25s linear;
+        background: linear-gradient(-193deg, #17bebb, #9b9bfd);
       }
     }
   }

@@ -14,9 +14,9 @@
         <header-bar/>
     -->
 
-<!--
-    <particles/>
--->
+    <!--
+        <particles/>
+    -->
   </div>
 </template>
 
@@ -106,7 +106,7 @@
     .app {
       .sidebar {
         margin: 0 0 0 $navi_toolbar_desktop_width;
-        padding: 0 $space_5;
+        padding: $header_height $space_5 0 $space_5;
       }
     }
   }
