@@ -22,21 +22,6 @@ $ yarn start
 # generate static project (used at production server)
 $ yarn generate
 ```
-Or if you prefer npm:
-``` bash
-# install dependencies
-$ npm i
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project (used at production server)
-$ npm run generate
-```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
@@ -48,8 +33,13 @@ Images are cropped using [ImageMagick](https://www.imagemagick.org/script/index.
 `convert archive/original.png -gravity center -resize 350x240\^ -crop 350x240+0+0 +repage static/converted.png`  
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
+Crop images in `archive/` and export to `static/`   
+````bash
+yarn image
+````
+
 ## Now
-Deploy `master` with now to https://stavros.online/:
+Deploy `master` with now to https://stavrosliaskos-qfnxnrkcyr.now.sh:
 ```shell
 yarn deploy
 ```
@@ -84,6 +74,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - [fix coverage ](https://nuxtjs.org/examples/testing/)
 - [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
 - maybe give [this](https://github.com/shshaw/splitting/) a try? looks fancy
+- https://alligator.io/vuejs/parallax-effect/
 
 
 ## Pages

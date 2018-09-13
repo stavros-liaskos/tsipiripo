@@ -8,18 +8,74 @@
       "link": "http://www.lucky-barber.com/"
     },
     {
-      "imgUrl": "sparwelt.png",
-      "title": "Kounia morou",
-      "tech": "Mothercare",
-      "desc": "9-36kg",
-      "link": "https://www.sparwelt.de/"
+      "imgUrl": "karekla_faghtou_happy.png",
+      "title": "Καρέκλα φαγητού",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
     },
     {
-      "imgUrl": "notes.png",
-      "title": "Kathhsmataki",
-      "tech": "Bebe Stars A.E.",
-      "desc": "9-36kg",
-      "link": "https://stavros-liaskos.github.io/notes/"
+      "imgUrl": "mpaniera_aqua_green.png",
+      "title": "Μπανιέρα",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "transporter_kathisma.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "polukarotsi_malibu.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_surtaria.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "relax_dream_plus.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "karotsi_mple.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "domatio_aspro.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_kokkino.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_casa_baby.png",
+      "title": "Proion Tade",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
     }
   ]
 }
