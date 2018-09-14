@@ -39,7 +39,7 @@ yarn image
 ````
 
 ## Now
-Deploy `master` with now to https://stavrosliaskos-qfnxnrkcyr.now.sh:
+Deploy `master` with now to https://tsipiripo.now.sh/:
 ```shell
 yarn deploy
 ```
@@ -75,6 +75,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
 - maybe give [this](https://github.com/shshaw/splitting/) a try? looks fancy
 - https://alligator.io/vuejs/parallax-effect/
+- use nuxt-link instead of anchors
 
 
 ## Pages

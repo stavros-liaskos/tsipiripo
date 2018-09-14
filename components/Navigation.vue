@@ -19,7 +19,10 @@
           </li>
 
           <li class="menu-item">
+            <nuxt-link class="item-link h1 flip" to="/contact">Επικοινωνία</nuxt-link>
+<!--
             <a href="/contact" class="item-link h1 flip">Επικοινωνία</a>
+-->
           </li>
         </ul>
       </div>
