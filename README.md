@@ -76,6 +76,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - maybe give [this](https://github.com/shshaw/splitting/) a try? looks fancy
 - https://alligator.io/vuejs/parallax-effect/
 - use nuxt-link instead of anchors
+- move imports to `components.js`
 
 
 ## Pages

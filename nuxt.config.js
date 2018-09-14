@@ -72,7 +72,9 @@ module.exports = {
     {src: '~/plugins/vue-scrollto'},
     {src: '~/plugins/vue-particles', ssr: false},
     {src: '~/plugins/vue-typer', ssr: false},
-    {src: '~/plugins/vue-lazyload', ssr: false}
+    {src: '~/plugins/vue-lazyload', ssr: false},
+    // {src: '~/plugins/components', ssr: false}
+    '~/plugins/components'
   ],
   /*
   ** Style configuration https://nuxtjs.org/api/configuration-css#the-css-property
@@ -90,6 +92,10 @@ module.exports = {
   ** Customize modules
   */
   modules: [
+    ['storyblok-nuxt', {
+      accessToken: '3BrfqnoZqVasVUHsixNjSQtt',
+      cacheProvider: 'memory'
+    }],
     '@nuxtjs/sitemap'
   ]
 };
