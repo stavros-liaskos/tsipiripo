@@ -19,16 +19,9 @@
 </template>
 
 <script>
-  import ExpertiseCard from '~/components/ExpertiseCard.vue';
-  import HeadlineAnimated from '~/components/HeadlineAnimated';
   import {expertiseCards, expetiseMainContent} from '~/assets/data/expertise.json';
 
   export default {
-    components: {
-      ExpertiseCard,
-      HeadlineAnimated
-    },
-
     data() {
       return {
         expertiseCards,

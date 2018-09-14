@@ -19,16 +19,9 @@
 </template>
 
 <script>
-  import HeadlineAnimated from '~/components/HeadlineAnimated';
-  import ProjectCard from '~/components/ProjectCard.vue';
   import projectCards from '~/assets/data/projectCards.json';
 
   export default {
-    components: {
-      HeadlineAnimated,
-      ProjectCard
-    },
-
     data() {
       return projectCards;
     }

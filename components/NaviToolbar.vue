@@ -9,18 +9,6 @@
   </div>
 </template>
 
-<script>
-  import Burger from '~/components/Burger.vue';
-  import SocialLinks from '~/components/SocialLinks.vue';
-
-  export default {
-    components: {
-      Burger,
-      SocialLinks
-    }
-  };
-</script>
-
 <style lang="scss" scoped>
   @import '../assets/styles';
 

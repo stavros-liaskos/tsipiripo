@@ -13,7 +13,8 @@
     <h4>Do I disclose any information to ouside parties?</h4>
     <p> I do not sell, trade or transfer to outside parties any information. This does not include
       trusted third parties who assist in operating this website, so long as those
-      parties agree to keep this information confidential (provider: <a href="https://cmslauncher.com/" rel="noreferrer">CMS Launcher</a>).
+      parties agree to keep this information confidential (provider: <a href="https://cmslauncher.com/"
+                                                                        rel="noreferrer">CMS Launcher</a>).
       No personally identifiable visitor information may be provided to other parties for marketing, advertising, or
       other uses.
     </p>
@@ -38,13 +39,3 @@
     <go-home v-bind:style="{textAlign: 'right'}"/>
   </div>
 </template>
-
-<script>
-  import GoHome from '~/components/GoHome';
-
-  export default {
-    components: {
-      GoHome
-    }
-  };
-</script>

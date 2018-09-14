@@ -72,7 +72,8 @@ module.exports = {
     {src: '~/plugins/vue-scrollto'},
     {src: '~/plugins/vue-particles', ssr: false},
     {src: '~/plugins/vue-typer', ssr: false},
-    {src: '~/plugins/vue-lazyload', ssr: false}
+    {src: '~/plugins/vue-lazyload', ssr: false},
+    '~/plugins/components'
   ],
   /*
   ** Style configuration https://nuxtjs.org/api/configuration-css#the-css-property

@@ -1,0 +1,22 @@
+import Vue from 'vue';
+import Description from '~/components/Description.vue';
+import Expertise from '~/components/Expertise.vue';
+import Portfolio from '~/components/Portfolio.vue';
+import GoHome from '~/components/GoHome';
+import HeadlineAnimated from '~/components/HeadlineAnimated';
+import ProjectCard from '~/components/ProjectCard.vue';
+import Burger from '~/components/Burger.vue';
+import SocialLinks from '~/components/SocialLinks.vue';
+import NaviToolbar from '~/components/NaviToolbar.vue';
+import ExpertiseCard from '~/components/ExpertiseCard.vue';
+
+Vue.component('description', Description);
+Vue.component('go-home', GoHome);
+Vue.component('headline-animated', HeadlineAnimated);
+Vue.component('portfolio', Portfolio);
+Vue.component('expertise', Expertise);
+Vue.component('project-card', ProjectCard);
+Vue.component('burger', Burger);
+Vue.component('social-links', SocialLinks);
+Vue.component('navi-toolbar', NaviToolbar);
+Vue.component('expertise-card', ExpertiseCard);

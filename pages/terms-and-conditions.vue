@@ -55,13 +55,3 @@
     <go-home v-bind:style="{textAlign: 'right'}"/>
   </div>
 </template>
-
-<script>
-  import GoHome from '~/components/GoHome';
-
-  export default {
-    components: {
-      GoHome
-    }
-  };
-</script>

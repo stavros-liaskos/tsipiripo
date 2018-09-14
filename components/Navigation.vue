@@ -34,13 +34,7 @@
 </template>
 
 <script>
-  import NaviToolbar from './NaviToolbar.vue';
-
   export default {
-    components: {
-      NaviToolbar
-    },
-
     data() {
       return {
         isNavOpen: false
