@@ -11,9 +11,7 @@
       <a href="mailto:hello@stavrosliaskos.com" target="_blank">hello@stavrosliaskos.com</a>
     </p>
 
-    <!--
-        <contact-form/>
-    -->
+    <contact-form/>
 
     <br>
     <go-home v-bind:style="{textAlign: 'right'}"/>
@@ -21,11 +19,11 @@
 </template>
 
 <script>
-  // import ContactForm from '~/components/ContactForm';
+  import ContactForm from '~/components/ContactForm';
 
   export default {
     components: {
-      // ContactForm,
+      ContactForm
     },
 
     data() {

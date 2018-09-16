@@ -1,6 +1,9 @@
 <template>
   <div class="footer-lower">
-    <span class="text-main footer-item">© {{dateYear}} Stavros Liaskos</span>
+    <span class="text-main footer-item">
+        <a href="https://github.com/stavros-liaskos" target="_blank"
+           rel="noopener noreferrer">© {{dateYear}} Stavros Liaskos</a>
+    </span>
     <a href="/privacy-policy" class=" footer-item">Privacy Policy </a>
     <a href="/terms-and-conditions" class=" footer-item">Terms and Conditions </a>
     <a href="/sitemap.xml" class=" footer-item">Sitemap </a>

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer z-3 sidebar text-center">
     <div class="m-b-5">
-      <a href="/" class="h2 underline-dark">stavrosliaskos.com</a>
+      <!--<a href="/" class="h2 underline-dark">stavrosliaskos.com</a>-->
     </div>
 
     <footer-lower/>

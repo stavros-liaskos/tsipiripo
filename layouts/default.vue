@@ -114,7 +114,7 @@
   @include breakpoint($screen_viewport_lg) {
     .app {
       .sidebar {
-        padding: 0 $space_7;
+        padding: $header_height $space_7 0 $space_7;
       }
     }
   }
@@ -122,7 +122,7 @@
   @include breakpoint($screen_viewport_xl) {
     .app {
       .sidebar {
-        padding: 0 $space_9;
+        padding: $header_height $space_9 0 $space_9;
       }
     }
   }
