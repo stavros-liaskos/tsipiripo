@@ -3,6 +3,7 @@ node_modules
 
 # logs
 npm-debug.log
+newrelic_agent.log
 
 # Nuxt build
 .nuxt
@@ -18,3 +19,6 @@ yarn.lock
 
 # Webhint reports
 hint-report
+
+# .env info
+env/.env

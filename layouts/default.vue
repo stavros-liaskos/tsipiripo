@@ -23,7 +23,7 @@
 <script>
   import Navigation from '~/components/Navigation.vue';
   // import Particles from '~/components/Particles.vue';
-  import FooterBar from '~/components/Footer/FooterBar.vue';
+  import FooterBar from '~/components/FooterBar.vue';
   // import HeaderBar from '~/components/HeaderBar.vue';
   import FontFaceObserver from 'fontfaceobserver';
 
@@ -107,6 +107,10 @@
       .sidebar {
         margin: 0 0 0 $navi_toolbar_desktop_width;
         padding: $header_height $space_5 0 $space_5;
+
+        &:last-child {
+          padding-bottom: $space_8;
+        }
       }
     }
   }

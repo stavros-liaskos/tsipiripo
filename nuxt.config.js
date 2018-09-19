@@ -6,7 +6,7 @@ module.exports = {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'Stavros Liaskos // Frontend Developer',
+    title: 'Tsipiripo // All about baby gear',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'},
@@ -69,10 +69,11 @@ module.exports = {
   ** Plugins
    */
   plugins: [
-    {src: '~/plugins/vue-scrollto'},
-    {src: '~/plugins/vue-particles', ssr: false},
-    {src: '~/plugins/vue-typer', ssr: false},
+    {src: '~/plugins/vue-cookie-law'},
     {src: '~/plugins/vue-lazyload', ssr: false},
+    {src: '~/plugins/vue-particles', ssr: false},
+    {src: '~/plugins/vue-scrollto'},
+    {src: '~/plugins/vue-typer', ssr: false},
     '~/plugins/components'
   ],
   /*

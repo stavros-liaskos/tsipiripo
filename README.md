@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="800" src="media/doc_logo.png" alt="stavrosliaskos">
+	<img width="800" src="medpng" alt="stavrosliaskos">
 </h1>
 
 > My Nuxt.js based developer website
@@ -76,6 +76,16 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - maybe give [this](https://github.com/shshaw/splitting/) a try? looks fancy
 - https://alligator.io/vuejs/parallax-effect/
 - use nuxt-link instead of anchors
+- automate now deployment (delete previous [sleeping only?]instances)
+
+## New Relic
+New Relic is used for both logging and keeping the application "awake".  
+
+`server.js` is extending Nuxt.js docs and just import `newrelic`.   
+
+Add the licence token to `env/.env`. The token was generated when creating the app on [New Relic](https://newrelic.com/).
+
+From New Relic's dashboard, go to Reports -> Availability and enable Availability Monitoring. This will ping the defined URL in an interval and keep the app "awake".
 
 
 ## Pages

@@ -8,7 +8,7 @@
         <ul class="menu-list">
 
           <li class="menu-item">
-            <a href="/" class="item-link h1 flip">Αρχική</a>
+            <nuxt-link class="item-link h1 flip" to="/">Αρχική</nuxt-link>
           </li>
 
           <li class="menu-item">
@@ -20,9 +20,6 @@
 
           <li class="menu-item">
             <nuxt-link class="item-link h1 flip" to="/contact">Επικοινωνία</nuxt-link>
-<!--
-            <a href="/contact" class="item-link h1 flip">Επικοινωνία</a>
--->
           </li>
         </ul>
       </div>
@@ -51,6 +48,7 @@
 
     mounted() {
       this.initNavigationListener();
+      console.warn(this.$router.path);
     }
   };
 </script>
