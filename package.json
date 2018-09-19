@@ -16,7 +16,7 @@
     "test": "nyc ava --serial --verbose",
     "image": "bash image_cropper.sh",
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
-    "deploy": "now && now alias"
+    "deploy": "now rm -y tsipiripo && now && now alias"
   },
   "engines": {
     "yarn": ">=1.7.0",

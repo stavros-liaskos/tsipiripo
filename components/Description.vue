@@ -1,6 +1,6 @@
 <template>
   <div id="description" class="description section">
-    <h1 class="desc-title">Hi, I'm Stavros.</h1>
+    <h1 class="desc-title">Tsipiripo</h1>
     <h2 class="desc-title h1">I design & build</h2>
 
     <!--
