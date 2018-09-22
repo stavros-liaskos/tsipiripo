@@ -15,7 +15,7 @@
             <a href="#" v-scroll-to="{
                         el: '#expertise',
                         offset: -200}"
-               class="item-link h1">Προιόντα</a>
+               class="item-link h1 flip">Προιόντα</a>
           </li>
 
           <li class="menu-item">
@@ -82,7 +82,7 @@
     }
 
     .menu-container {
-      position: relative;
+      // position: relative;
       height: 100%;
       text-align: center;
       padding: 12% 0;

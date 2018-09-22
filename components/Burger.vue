@@ -1,5 +1,5 @@
 <template>
-  <div class="burger-menu"
+  <div class="burger-menu z-1"
        v-on:click=clickHandler()
        v-bind:class="{ active: isNavOpen }"
   >
@@ -20,6 +20,8 @@
 
     methods: {
       clickHandler() {
+        console.warn('click');
+
         this.$root.$emit('toggle.navigation.state', this.isNavOpen); // send event to index page to handle slide effect
         this.isHovered = false;
         if (this.isNavOpen) {
