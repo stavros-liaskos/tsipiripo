@@ -4,7 +4,7 @@
   >
     <navigation/>
 
-    <div class="container sidebar">
+    <div class="container">
       <nuxt/>
     </div>
 
@@ -91,43 +91,5 @@
   .app {
     width: 100%;
     font-family: $font_family_default !important;
-
-    .container {
-      min-height: calc(100vh - #{$footer_height});
-    }
-
-    // aside space
-    .sidebar {
-      padding: 0 $space_4;
-    }
-  }
-
-  @include breakpoint($breakpoint_screen_md) {
-    .app {
-      .sidebar {
-        margin: 0 0 0 $navi_toolbar_desktop_width;
-        padding: $header_height $space_5 0 $space_5;
-
-        &:last-child {
-          padding-bottom: $space_8;
-        }
-      }
-    }
-  }
-
-  @include breakpoint($screen_viewport_lg) {
-    .app {
-      .sidebar {
-        padding: $header_height $space_7 0 $space_7;
-      }
-    }
-  }
-
-  @include breakpoint($screen_viewport_xl) {
-    .app {
-      .sidebar {
-        padding: $header_height $space_9 0 $space_9;
-      }
-    }
   }
 </style>

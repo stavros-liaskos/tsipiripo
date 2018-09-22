@@ -1,5 +1,5 @@
 <template>
-  <footer class="z-3 sidebar">
+  <footer class="z-3 container">
     <div class="info">
       <div>
         <h4 class="m-0 p-b-6">Επικοινωνία</h4>

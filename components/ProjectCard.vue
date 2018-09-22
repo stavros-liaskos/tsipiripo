@@ -38,7 +38,7 @@
   @import '../assets/styles';
 
   // Card spacing
-  $card_width: 350px;
+  $card_width: 300px;
   $card_height: 350px;
   $card_bg_color: $color_white;
   $anim-time: .3s;
@@ -48,13 +48,12 @@
 
   .project-card {
     position: relative;
-    width: 100%;
     max-width: $card_width;
     min-width: calc(#{$card_width} - 100px);
     max-height: $card_height;
     background: $card_bg_color;
     margin: 0 $space_2 $space_7;
-    box-shadow: 3px 0px 33px 0px $color_sky;
+    box-shadow: 0 0 30px 0 $color_sky;
     border: 1px solid $color_grey_60;
     border-radius: 15px;
 
