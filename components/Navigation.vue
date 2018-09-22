@@ -8,18 +8,26 @@
         <ul class="menu-list">
 
           <li class="menu-item">
-            <nuxt-link class="underline item-link h1 flip" to="/">Αρχική</nuxt-link>
+            <nuxt-link class="underline item-link text-main h1 flip"
+                       v-on:click.native=toggleMenu()
+                       to="/">Αρχική
+            </nuxt-link>
           </li>
 
           <li class="menu-item">
             <a href="#" v-scroll-to="{
                         el: '#expertise',
                         offset: -200}"
-               class="underline item-link h1 flip">Προιόντα</a>
+               class="underline item-link text-main h1 flip"
+               v-on:click.native=toggleMenu()>Προιόντα
+            </a>
           </li>
 
           <li class="menu-item">
-            <nuxt-link class="underline item-link h1 flip" to="/contact">Επικοινωνία</nuxt-link>
+            <nuxt-link class="underline item-link text-main h1 flip"
+                       v-on:click.native=toggleMenu()
+                       to="/contact">Επικοινωνία
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -43,6 +51,10 @@
         this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
           this.isNavOpen = !isNaviOpen;
         });
+      },
+
+      toggleMenu() {
+        this.$root.$emit('toggle.navigation.state', this.isNavOpen); // send event to index page to handle slide effect
       }
     },
 
@@ -74,10 +86,6 @@
         transform: rotateY(0deg);
         opacity: 1;
       }
-    }
-
-    .item-link {
-      @extend .text-main;
     }
 
     .menu-container {

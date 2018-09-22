@@ -20,9 +20,12 @@
 
     methods: {
       clickHandler() {
-        console.warn('click');
-
         this.$root.$emit('toggle.navigation.state', this.isNavOpen); // send event to index page to handle slide effect
+      }
+    },
+
+    mounted() {
+      this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
         this.isHovered = false;
         if (this.isNavOpen) {
           setTimeout(() => {
@@ -31,7 +34,7 @@
         } else {
           this.isNavOpen = true;
         }
-      }
+      });
     }
   };
 </script>
