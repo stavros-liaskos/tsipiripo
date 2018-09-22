@@ -20,11 +20,16 @@
     </p>
 
     <h4>Terms and Conditions</h4>
-    <p>Please also visit our <a href="/terms-and-conditions">Terms and Conditions</a> section establishing the use,
-      disclaimers and limitations of liability governing the use of this website.</p>
+    <p>Please also visit our
+      <nuxt-link to="/terms-and-conditions">Terms and Conditions</nuxt-link>
+      section establishing the use,
+      disclaimers and limitations of liability governing the use of this website.
+    </p>
 
     <h4>Your Consent</h4>
-    <p>By using our site, you consent to our <a href="/privacy-policy">privacy policy.</a></p>
+    <p>By using our site, you consent to our
+      <nuxt-link to="/privacy-policy">privacy policy.</nuxt-link>
+    </p>
 
     <h4>Changes to our Privacy Policy</h4>
     <p>If I decide to change my privacy policy, I will post the changes on this page.</p>

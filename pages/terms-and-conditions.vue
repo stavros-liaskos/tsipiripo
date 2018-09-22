@@ -5,8 +5,10 @@
     <p>Last updated: May 27, 2018</p>
 
     <p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using
-      <a href="/">https://stavrosliaskos.com/</a> website (the "Service") operated by Stavros
-      Liaskos.</p>
+      <nuxt-link to="/">https://stavrosliaskos.com/</nuxt-link>
+      website (the "Service") operated by Stavros
+      Liaskos.
+    </p>
 
     <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These
       Terms apply to all visitors, users and others who access or use the Service.</p>

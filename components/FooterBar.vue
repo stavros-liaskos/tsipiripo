@@ -31,12 +31,12 @@
 
     <div class="powered text-center">
       <br>
-      <a href="https://stavrosliaskos.com/" target="_blank">
+      <nuxt-link to="/" target="_blank">
         <!--
                 <img class="pull-left mr-15 relative" src="https://cosmicjs.com/images/logo.svg" width="28" height="28">
         -->
         <span style="margin-left:10px; color: #666">Proudly powered by Stavros Liaskos</span>
-      </a>
+      </nuxt-link>
     </div>
 
     <!--<cookie-law theme="royal">

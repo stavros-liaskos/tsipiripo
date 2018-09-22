@@ -48,7 +48,6 @@
 
     mounted() {
       this.initNavigationListener();
-      console.warn(this.$router.path);
     }
   };
 </script>

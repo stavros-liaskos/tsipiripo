@@ -9,10 +9,10 @@
 
 
     <div class="learn-more text-center">
-      <a href="#" v-scroll-to="'#expertise'" class="scroll-promt">
+      <nuxt-link to="/" v-scroll-to="'#expertise'" class="scroll-promt">
         Learn more about what I do<br>
-      </a>
-      <a href="#" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></a>
+      </nuxt-link>
+      <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>
   </div>
 </template>
