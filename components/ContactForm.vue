@@ -9,8 +9,7 @@
     <form id="contact_form" v-on:submit.prevent="submitForm" action="">
       <div class="top">
         <div class="form-group  flex-item">
-          <label for="name">Name: </label>
-          <br>
+          <label class="m-b-1" for="name">Όνομα: </label>
           <!-- v-model link to the model (i.e. pieces of the data section of vue.js) -->
           <!-- v-on lets us run methods from vue.js : this one is v-on:blur for the blur event -->
           <!--    blur just means that the field no longer has 'focus' -->
@@ -18,21 +17,19 @@
         </div>
 
         <div class="form-group flex-item">
-          <label for="email">Email: </label>
-          <br>
+          <label class="m-b-1" for="email">Email: </label>
           <input v-model="email" v-on:blur="isValidEmail" class="form-control" name="email" type="email"/>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="message">Message
+        <label class="m-b-1" for="message">Μύνημα
           <small>(<span>{{ message.length }}</span> / <span>{{ maxLength }}</span>):</small>
         </label>
-        <br>
         <textarea v-model="message" v-on:blur="isValidMessage" class="form-control" name="message"></textarea>
       </div>
 
-      <button type="submit">Send it!</button>
+      <button type="submit">Αποστολή!</button>
     </form>
   </div>
 </template>
@@ -99,6 +96,15 @@
   .form-container {
     width: 100%;
     margin: auto;
+
+    label {
+      display: inline-block;
+    }
+
+    input,
+    textarea {
+      background: $bg_input_field;
+    }
 
     .top {
       display: flex;

@@ -8,18 +8,18 @@
         <ul class="menu-list">
 
           <li class="menu-item">
-            <nuxt-link class="item-link h1 flip" to="/">Αρχική</nuxt-link>
+            <nuxt-link class="underline item-link h1 flip" to="/">Αρχική</nuxt-link>
           </li>
 
           <li class="menu-item">
             <a href="#" v-scroll-to="{
                         el: '#expertise',
                         offset: -200}"
-               class="item-link h1 flip">Προιόντα</a>
+               class="underline item-link h1 flip">Προιόντα</a>
           </li>
 
           <li class="menu-item">
-            <nuxt-link class="item-link h1 flip" to="/contact">Επικοινωνία</nuxt-link>
+            <nuxt-link class="underline item-link h1 flip" to="/contact">Επικοινωνία</nuxt-link>
           </li>
         </ul>
       </div>
@@ -78,7 +78,6 @@
 
     .item-link {
       @extend .text-main;
-      @include underline();
     }
 
     .menu-container {
