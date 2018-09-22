@@ -10,7 +10,7 @@
 
     <div class="learn-more text-center">
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="scroll-promt">
-        Learn more about what I do<br>
+        Δείτε περισσότερα<br>
       </nuxt-link>
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>

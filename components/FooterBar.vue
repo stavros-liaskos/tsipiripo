@@ -2,15 +2,15 @@
   <footer class="z-3 sidebar">
     <div class="info">
       <div>
-        <h4 class="m-0 p-b-6">Contact Us</h4>
+        <h4 class="m-0 p-b-6">Επικοινωνία</h4>
 
-        <p class="m-0 p-y-1"><strong>Phone:</strong></p>
+        <p class="m-0 p-y-1"><strong>Τηλέφωνο:</strong></p>
         <p class="m-0 p-b-1">{{contact.phone}}</p>
 
         <p class="m-0 p-y-1"><strong>Email:</strong></p>
         <p class="m-0 p-b-1"><a :href="'mailto:'+contact.email">{{contact.email}}</a></p>
 
-        <p class="m-0 p-y-1"><strong>Address:</strong></p>
+        <p class="m-0 p-y-1"><strong>Διεύθυνση:</strong></p>
         <p class="m-0 p-b-1" v-html="contact.address"></p>
       </div>
 
