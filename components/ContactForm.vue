@@ -1,5 +1,19 @@
 <template>
-  <div class="form-container">
+  <div id="contact" class="form-container section">
+
+    <headline-animated
+      v-bind:class="['text-center']"
+      v-bind:content="'Let\'s talk'"/>
+
+    <p>
+      Do you want to tell me something amazing?
+      Do you have any questions?
+      Don't hesitate to contact me at:
+      <a href="mailto:hello@stavrosliaskos.com" target="_blank">hello@stavrosliaskos.com</a>
+    </p>
+
+
+
     <!-- id of contact_form used in vue.js to designate this form as our app -->
     <!-- also, uses several bootstrap classes (form-group, form-control, btn, btn-primary, etc.) -->
     <!-- v- is our vue stuff; "on:" is hooking into an event -->

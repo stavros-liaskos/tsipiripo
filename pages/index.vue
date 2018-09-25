@@ -3,5 +3,6 @@
     <description/>
     <expertise/>
     <portfolio/>
+    <contact-form/>
   </div>
 </template>

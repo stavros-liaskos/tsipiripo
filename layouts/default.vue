@@ -4,7 +4,7 @@
   >
     <navigation/>
 
-    <div class="container">
+    <div class="container header-p">
       <nuxt/>
     </div>
 
@@ -91,5 +91,11 @@
   .app {
     width: 100%;
     font-family: $font_family_default !important;
+  }
+
+  @include breakpoint($breakpoint_screen_md) {
+    .header-p {
+      padding-top: $space_7;
+    }
   }
 </style>

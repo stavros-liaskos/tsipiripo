@@ -10,6 +10,7 @@ import SocialLinks from '~/components/SocialLinks.vue';
 import NaviToolbar from '~/components/NaviToolbar.vue';
 import ExpertiseCard from '~/components/ExpertiseCard.vue';
 import FooterBar from '~/components/FooterBar.vue';
+import ContactForm from '~/components/ContactForm';
 
 Vue.component('description', Description);
 Vue.component('go-home', GoHome);
@@ -22,3 +23,4 @@ Vue.component('social-links', SocialLinks);
 Vue.component('navi-toolbar', NaviToolbar);
 Vue.component('expertise-card', ExpertiseCard);
 Vue.component('footer-bar', FooterBar);
+Vue.component('contact-form', ContactForm);

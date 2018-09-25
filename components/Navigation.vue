@@ -8,26 +8,40 @@
         <ul class="menu-list">
 
           <li class="menu-item">
-            <nuxt-link class="underline item-link text-main h1 flip"
-                       v-on:click.native=toggleMenu()
-                       to="/">Αρχική
-            </nuxt-link>
+
+            <a href="#" v-scroll-to="{
+                        el: '#description',
+                        offset: -60}"
+               class="underline item-link text-main h1 flip"
+               v-on:click.native=toggleMenu()>Αρχική
+            </a>
           </li>
 
           <li class="menu-item">
             <a href="#" v-scroll-to="{
                         el: '#expertise',
-                        offset: -200}"
+                        offset: -60}"
+               class="underline item-link text-main h1 flip"
+               v-on:click.native=toggleMenu()>Desription
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="#" v-scroll-to="{
+                        el: '#portfolio',
+                        offset: -60}"
                class="underline item-link text-main h1 flip"
                v-on:click.native=toggleMenu()>Προιόντα
             </a>
           </li>
 
           <li class="menu-item">
-            <nuxt-link class="underline item-link text-main h1 flip"
-                       v-on:click.native=toggleMenu()
-                       to="/contact">Επικοινωνία
-            </nuxt-link>
+            <a href="#" v-scroll-to="{
+                        el: '#contact',
+                        offset: -60}"
+               class="underline item-link text-main h1 flip"
+               v-on:click.native=toggleMenu()>Επικοινωνία
+            </a>
           </li>
         </ul>
       </div>
