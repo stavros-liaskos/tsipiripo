@@ -6,28 +6,18 @@
   "expertiseCards": [
     {
       "title": "Strategy",
-      "icon": "fas fa-gavel",
-      "desc": "Prosferoume unarmologhsh sto spiti. mpla mpla mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla "
-    },
-    {
-      "title": "Code",
-      "icon": "fas fa-code",
-      "desc": "I design in the browser with HTML(5), CSS(3) and a ES6. I love coding things from scratch, but I can work with Frontend frameworks like Vue.js, React.js, Bootstrap etc."
+      "icon": "fas fa-landmark",
+      "desc": "25 χρονια στο ειδος παντα διπλα στους πελατες μας για την καλυτερη εξυπηρετηση τους."
     },
     {
       "title": "Performance",
-      "icon": "fas fa-tachometer-alt",
-      "desc": "Have you visited a website from an old smart phone under a slow network connection? And then, have you visited that website ever again..?"
+      "icon": "fas fa-handshake",
+      "desc": "Συνεργασια με επιλεγμενες εταιρειες που αναπτυσσουν τα προ'ι'οντα τους συμφωνα με τις τασεις της μοδας αλλα κυριως με γνωμονα την ασφαλεια ,την εγγυηση και γενικοτερα την καλυτερη εξυπηρετηση των πελατων!! Προωθουμε την προσωπικη επαφη με τον πελατη και προσφερουμε εκπτωσεις καθ'ολη την διαρκεια του ετους."
     },
     {
       "title": "Εξυπηρετηση",
       "icon": "fas fa-user-plus",
-      "desc": "Mporeitai na mas vreite online kai sta ekshs thelfona. mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla  mpla mpla mpla mlpa mlpa mpla mpla "
-    },
-    {
-      "title": "Creative",
-      "icon": "fas fa-lightbulb",
-      "desc": "Backed by an extensive experience and a personality which demands to know the latest news in the business, I create a broad range of applications with a focus on web design."
+      "desc": "Ολα τα ειδη bebe στις καλυτερες τιμες, δωρεαν μεταφορα και εξυπηρετηση σε ολην την Αττικη."
     },
     {
       "title": "Παιχνιδια",

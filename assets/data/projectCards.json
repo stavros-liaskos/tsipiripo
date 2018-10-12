@@ -1,13 +1,6 @@
 {
   "projectCards": [
     {
-      "imgUrl": "lucky-barber.png",
-      "title": "Kounia morou",
-      "tech": "Bebe Stars A.E.",
-      "desc": "9-36kg",
-      "link": "http://www.lucky-barber.com/"
-    },
-    {
       "imgUrl": "karekla_faghtou_happy.png",
       "title": "Καρέκλα φαγητού",
       "tech": "Domatio",
@@ -37,7 +30,7 @@
     },
     {
       "imgUrl": "krevati_surtaria.png",
-      "title": "Παρκοκρέβατο",
+      "title": "Κρεβάτι",
       "tech": "Domatio",
       "desc": "Mple Kokkino Poua",
       "link": ""
@@ -72,7 +65,7 @@
     },
     {
       "imgUrl": "krevati_casa_baby.png",
-      "title": "Παρκοκρέβατο",
+      "title": "Κρεβάτι",
       "tech": "Domatio",
       "desc": "Mple Kokkino Poua",
       "link": ""

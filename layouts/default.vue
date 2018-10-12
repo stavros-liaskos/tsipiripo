@@ -54,7 +54,7 @@
       fontFaceLoader() {
         // Font loading: https://github.com/zeit/next.js/issues/512
         const comingSoonUrl = 'https://fonts.googleapis.com/css?family=Fira+Sans',
-          fontAwesomeUrl = 'https://use.fontawesome.com/releases/v5.0.6/css/all.css';
+          fontAwesomeUrl = 'https://use.fontawesome.com/releases/v5.3.0/css/all.css';
 
         let linkRoboto = document.createElement('link'),
           linkFontAwesome = document.createElement('link'),

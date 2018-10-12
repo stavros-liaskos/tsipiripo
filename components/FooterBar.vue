@@ -1,5 +1,5 @@
 <template>
-  <footer class="z-3 container">
+  <footer id="footer" class="z-3 container">
     <div class="info">
       <div>
         <h4 class="m-0 p-b-6">Επικοινωνία</h4>
@@ -15,14 +15,19 @@
       </div>
 
       <div>
-        <h4 class="m-0 p-b-6">Connect</h4>
+        <h4 class="m-0 p-b-6">Σύνδεσμοι</h4>
 
         <div>
           <a class="m-r-2" :href="contact.facebook" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
+          <a class="m-r-2" :href="contact.instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="m-r-2" :href="'mailto:'+contact.email" target="_blank">
+            <i class="far fa-envelope"></i>
+          </a>
         </div>
-
         <br>
         <p class="m-t-5"> &copy; 2018 Tsipiripo</p>
         <br>
@@ -67,7 +72,8 @@
     flex-direction: column;
     @extend .text-center;
 
-    .fab {
+    .fab,
+    .far {
       font-size: $social_icons_size;
     }
 

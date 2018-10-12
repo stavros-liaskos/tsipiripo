@@ -58,6 +58,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-image: url('~/assets/img/flying_gift.png');
+    background-repeat: no-repeat;
+    background-position: right;
 
     .learn-more {
       position: absolute;

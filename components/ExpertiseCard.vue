@@ -1,5 +1,5 @@
 <template>
-  <div class="expertise-card one-third bg-main">
+  <div class="expertise-card one-third">
     <i v-bind:class="[icon]"></i>
     <h2 class="h1">{{title}}</h2>
     <p>{{desc}}</p>

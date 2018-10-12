@@ -37,7 +37,7 @@
 
           <li class="menu-item">
             <a href="#" v-scroll-to="{
-                        el: '#contact',
+                        el: '#footer',
                         offset: -60}"
                class="underline item-link text-main h1 flip"
                v-on:click.native=toggleMenu()>Επικοινωνία
