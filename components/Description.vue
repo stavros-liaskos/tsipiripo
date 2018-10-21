@@ -1,7 +1,7 @@
 <template>
   <div id="description" class="description section">
     <div class="title-wrapper">
-      <h1 class="desc-title">Tsipiripo</h1>
+      <h1 class="desc-title">Τσιπιρίπο Bebe</h1>
 
       <vue-typer v-bind="{text: typedTxt}" initial-action='typing' pre-type-delay='500'></vue-typer>
     </div>
@@ -14,9 +14,12 @@
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>
 
-    <parallax :speed-factor="0.3" breakpoint="(min-width: 80px)">
-      <img src="~/assets/img/flying_gift.png">
-    </parallax>
+    <div class="parallax-container">
+      <parallax :speed-factor="0.3" breakpoint="(min-width: 80px)">
+        <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg">
+      </parallax>
+    </div>
+
   </div>
 </template>
 
@@ -30,7 +33,7 @@
 
     computed: {
       typedTxt() {
-        return ['Ta panta gia to moro'];
+        return ['Τα πάντα για το μωρό'];
       }
     }
   };
@@ -59,7 +62,6 @@
 
     .custom.caret {
       @extend .h1;
-      background-color: $bg_caret;
     }
   }
 
@@ -93,6 +95,15 @@
     .scroll-promt {
       display: none;
     }
+  }
+
+  .parallax-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 10%;
+    overflow: hidden;
   }
 
   @include breakpoint($breakpoint_screen_sm) {
