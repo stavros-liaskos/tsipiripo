@@ -1,6 +1,13 @@
 {
   "projectCards": [
     {
+      "imgUrl": "polukarotsi_malibu.png",
+      "title": "Καρότσι (3in1)",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
       "imgUrl": "karekla_faghtou_happy.png",
       "title": "Καρέκλα φαγητού",
       "tech": "Domatio",
@@ -22,13 +29,6 @@
       "link": ""
     },
     {
-      "imgUrl": "polukarotsi_malibu.png",
-      "title": "Καρότσι (3in1)",
-      "tech": "Domatio",
-      "desc": "Mple Kokkino Poua",
-      "link": ""
-    },
-    {
       "imgUrl": "krevati_surtaria.png",
       "title": "Κρεβάτι",
       "tech": "Domatio",
@@ -43,15 +43,8 @@
       "link": ""
     },
     {
-      "imgUrl": "karotsi_mple.png",
-      "title": "Καρότσι (3in1)",
-      "tech": "Domatio",
-      "desc": "Mple Kokkino Poua",
-      "link": ""
-    },
-    {
       "imgUrl": "domatio_aspro.png",
-      "title": "Παρκοκρέβατο",
+      "title": "Κρεβάτι",
       "tech": "Domatio",
       "desc": "Mple Kokkino Poua",
       "link": ""

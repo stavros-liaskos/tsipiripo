@@ -22,7 +22,7 @@
                         el: '#expertise',
                         offset: -60}"
                class="underline item-link text-main h1 flip"
-               v-on:click.native=toggleMenu()>Desription
+               v-on:click.native=toggleMenu()>Gnorimia
             </a>
           </li>
 

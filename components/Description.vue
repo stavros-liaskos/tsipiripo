@@ -1,17 +1,14 @@
 <template>
   <div id="description" class="description section">
     <h1 class="desc-title">Tsipiripo</h1>
-    <h2 class="desc-title h1">I design & build</h2>
 
-    <!--
-        <vue-typer v-bind="{text: typedTxt}" initial-action='erasing'></vue-typer>
-    -->
+    <vue-typer v-bind="{text: typedTxt}" initial-action='erasing'></vue-typer>
 
 
     <div class="learn-more text-center">
-      <nuxt-link to="/" v-scroll-to="'#expertise'" class="scroll-promt">
+      <!--<nuxt-link to="/" v-scroll-to="'#expertise'" class="scroll-promt">
         Δείτε περισσότερα<br>
-      </nuxt-link>
+      </nuxt-link>-->
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>
   </div>
@@ -21,7 +18,7 @@
   export default {
     computed: {
       typedTxt() {
-        return ['websites', 'applications', 'user interfaces'];
+        return ['Ta panta gia to moro'];
       }
     }
   };
