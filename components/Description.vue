@@ -1,8 +1,10 @@
 <template>
   <div id="description" class="description section">
-    <h1 class="desc-title">Tsipiripo</h1>
+    <div class="title-wrapper">
+      <h1 class="desc-title">Tsipiripo</h1>
 
-    <vue-typer v-bind="{text: typedTxt}" initial-action='typing'pre-type-delay='500'></vue-typer>
+      <vue-typer v-bind="{text: typedTxt}" initial-action='typing' pre-type-delay='500'></vue-typer>
+    </div>
 
 
     <div class="learn-more text-center">
@@ -11,11 +13,21 @@
       </nuxt-link>-->
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>
+
+    <parallax :speed-factor="0.3" breakpoint="(min-width: 80px)">
+      <img src="~/assets/img/flying_gift.png">
+    </parallax>
   </div>
 </template>
 
 <script>
+  import Parallax from 'vue-parallaxy';
+
   export default {
+    components: {
+      Parallax
+    },
+
     computed: {
       typedTxt() {
         return ['Ta panta gia to moro'];
@@ -60,6 +72,14 @@
     background-repeat: no-repeat;
     background-position: right;
 
+    .title-wrapper {
+      position: absolute;
+      top: 30%;
+      left: 0;
+      right: 0;
+      padding: 20px;
+    }
+
     .learn-more {
       position: absolute;
       bottom: 75px;
@@ -73,7 +93,6 @@
     .scroll-promt {
       display: none;
     }
-
   }
 
   @include breakpoint($breakpoint_screen_sm) {

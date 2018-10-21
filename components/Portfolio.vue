@@ -2,7 +2,7 @@
   <div id="portfolio" class="portfolio section">
     <headline-animated
       v-bind:class="['text-center p-b-6']"
-      v-bind:content="'Προϊόντα:'"/>
+      v-bind:content="'Προϊόντα'"/>
 
     <div class="project-cards-container">
 
