@@ -1,0 +1,67 @@
+{
+  "projectCards": [
+    {
+      "imgUrl": "polukarotsi_malibu.png",
+      "title": "Καρότσι (3in1)",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "karekla_faghtou_happy.png",
+      "title": "Καρέκλα φαγητού",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "mpaniera_aqua_green.png",
+      "title": "Μπανάκι",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "transporter_kathisma.png",
+      "title": "Κάθισμα αυτοκινήτου",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_surtaria.png",
+      "title": "Κρεβάτι",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "relax_dream_plus.png",
+      "title": "Ρηλάξ",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "domatio_aspro.png",
+      "title": "Κρεβάτι",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_kokkino.png",
+      "title": "Παρκοκρέβατο",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_casa_baby.png",
+      "title": "Κρεβάτι",
+      "tech": "Domatio",
+      "desc": "Mple Kokkino Poua",
+      "link": ""
+    }
+  ]
+}

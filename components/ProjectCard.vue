@@ -13,10 +13,6 @@
         <div class="title-container">
           <h2><i class="fas fa-dollar-sign" data-v-1c8e701e=""></i> {{title}} </h2>
         </div>
-
-        <div class="desc-container">
-          <p>{{desc}}</p>
-        </div>
       </div>
     </a>
   </div>
@@ -28,7 +24,6 @@
       imgUrl: String,
       title: String,
       tech: String,
-      desc: String,
       link: String
     }
   };
@@ -98,14 +93,6 @@
           opacity: 0;
         }
       }
-
-      .desc-container {
-        height: 0;
-
-        * {
-          opacity: 0;
-        }
-      }
     }
 
     &:hover {
@@ -122,14 +109,6 @@
 
         h2 {
           font-size: 1.9rem;
-        }
-      }
-
-      .desc-container {
-        height: $space_4;
-
-        * {
-          opacity: 1;
         }
       }
     }

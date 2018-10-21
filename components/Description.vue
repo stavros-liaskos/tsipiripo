@@ -2,7 +2,7 @@
   <div id="description" class="description section">
     <h1 class="desc-title">Tsipiripo</h1>
 
-    <vue-typer v-bind="{text: typedTxt}" initial-action='erasing'></vue-typer>
+    <vue-typer v-bind="{text: typedTxt}" initial-action='typing'pre-type-delay='500'></vue-typer>
 
 
     <div class="learn-more text-center">
@@ -28,6 +28,7 @@
   @import '../assets/styles';
 
   .vue-typer {
+    background: inherit;
     display: block;
     @extend .h1;
     @extend .bg-main;
