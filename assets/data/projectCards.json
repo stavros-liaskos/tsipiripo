@@ -1,87 +1,87 @@
 {
   "projectCards": [
     {
-      "imgUrl": "krevati_casa_baby.png",
-      "title": "Kounia morou",
-      "tech": "Paidiko domatio",
-      "desc": "",
-      "link": ""
-    },
-    {
       "imgUrl": "krevati_kokkino.png",
       "title": "Parkokrevata",
       "tech": "Paidiko domatio",
-      "desc": "",
+      "bgColor": "bg-orange",
       "link": ""
     },
     {
       "imgUrl": "polukarotsi_malibu.png",
       "title": "Karotsia 3 se 1",
       "tech": "Gia th Bolta",
-      "desc": "",
+      "bgColor": "bg-mustard",
       "link": ""
     },
     {
       "imgUrl": "polukarotsi_malibu.png",
       "title": "Karotsia",
       "tech": "Gia th Bolta",
-      "desc": "",
+      "bgColor": "bg-mustard",
       "link": ""
     },
     {
       "imgUrl": "polukarotsi_malibu.png",
       "title": "Kalokairina Karotsia",
       "tech": "Gia th Bolta",
-      "desc": "",
+      "bgColor": "bg-mustard",
       "link": ""
     },
     {
       "imgUrl": "transporter_kathisma.png",
       "title": "Kathisma aftokinhtou",
       "tech": "Aυτοκinhτο",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-electro",
+      "link": ""
+    },
+    {
+      "imgUrl": "krevati_casa_baby.png",
+      "title": "Kounia morou",
+      "tech": "Paidiko domatio",
+      "bgColor": "bg-orange",
       "link": ""
     },
     {
       "imgUrl": "transporter_kathisma.png",
       "title": "Travel",
       "tech": "Aυτοκinhτο",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-electro",
       "link": ""
     },
     {
       "imgUrl": "relax_dream_plus.png",
       "title": "Ρηλάξ",
       "tech": "Gia to spiti",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-orange",
       "link": ""
     },
     {
       "imgUrl": "mpaniera_aqua_green.png",
       "title": "Μπανάκι",
       "tech": "Gia to mpanio",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-mustard",
       "link": ""
     },
     {
       "imgUrl": "karekla_faghtou_happy.png",
       "title": "Καρέκλα φαγητού",
       "tech": "Gia to faghto",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-mustard",
       "link": ""
     },
     {
       "imgUrl": "karekla_faghtou_happy.png",
       "title": "Paixnidia",
       "tech": "Gia to paidi",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-mustard",
       "link": ""
     },
     {
       "imgUrl": "karekla_faghtou_happy.png",
       "title": "Perpatoures",
       "tech": "Gia to spiti",
-      "desc": "Mple Kokkino Poua",
+      "bgColor": "bg-orange",
       "link": ""
     }
   ]

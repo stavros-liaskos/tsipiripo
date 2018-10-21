@@ -11,7 +11,7 @@
                     v-bind:link="projectCard.link"
                     v-bind:title="projectCard.title"
                     v-bind:tech="projectCard.tech"
-                    v-bind:desc="projectCard.desc"
+                    v-bind:bgColor="projectCard.bgColor"
                     v-bind:key="index"
       />
     </div>

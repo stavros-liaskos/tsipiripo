@@ -31,12 +31,14 @@ $color_white: #ffffff;
 $color_mustard: #fccd04;
 $color_salmon: #d79922;
 $color_vase: #efe2ba;
+$color_orange: #f67725;
 $color_red: #f13c20;
 $color_orchid: #a64ac9;
 $color_blue: #4056a1;
 $color_electro: #20f1f1;
 $color_sky: #c5cbe3;
 
+$text_white: $color_grey_05;
 $text_main: $color_black;
 $text_main_secondary: $color_grey_10;
 $text_link: $color_blue;
@@ -56,8 +58,24 @@ $header_height: 60px;
   background: $bg_main;
 }
 
-.text-dark {
-  color: $text_main;
+.bg-mustard {
+  background: $color_mustard;
+}
+
+.bg-vase{
+  background: $color_vase;
+}
+
+.bg-orange{
+  background: $color_orange;
+}
+
+.bg-electro {
+  background: $color_electro;
+}
+
+.bg-orchid {
+  background: $color_orchid;
 }
 
 .text-main {

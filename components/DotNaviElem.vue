@@ -37,7 +37,7 @@
   $dot_wrapper_width: 17px;
   $dot_wrapper_height: $dot_wrapper_width;
   $dot_el_color: $color_grey_60;
-  $dot_animation_colour: $color_grey_60;
+  $dot_animation_colour: $border-color;
   $dot_animation_blank_space: 4px;
 
   .dot-wrapper {
