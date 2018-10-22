@@ -1,5 +1,5 @@
 <template>
-  <div id="description" class="description section">
+  <div id="description" class="section">
     <div class="title-wrapper">
       <h1 class="desc-title">Τσιπιρίπο Bebe</h1>
 
@@ -65,7 +65,7 @@
     }
   }
 
-  .description {
+  #description {
     position: relative;
     display: flex;
     justify-content: center;
@@ -101,13 +101,13 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    top: 0;
-    width: 10%;
+    width: 100px;
+    height: 400px;
     overflow: hidden;
   }
 
   @include breakpoint($breakpoint_screen_sm) {
-    .description {
+    #description {
       text-align: center;
 
       .desc-title {

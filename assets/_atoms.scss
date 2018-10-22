@@ -57,15 +57,19 @@ $header_height: 60px;
   background: $bg_main;
 }
 
+.bg-black {
+  background: $color_black;
+}
+
 .bg-mustard {
   background: $color_mustard;
 }
 
-.bg-vase{
+.bg-vase {
   background: $color_vase;
 }
 
-.bg-orange{
+.bg-orange {
   background: $color_orange;
 }
 
@@ -663,6 +667,10 @@ $pulse_4: #d8f6e7;
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .underline {
   @include underline($text_main);
 }
@@ -679,8 +687,9 @@ $pulse_4: #d8f6e7;
   border-bottom: dashed $color_grey_10;
 }
 
-// Links must have discernible text fix
+// Links must have discernible text fix (requires inline display: none to avoid FOUC)
 .dis-txt {
+  display: inline-block !important;
   white-space: nowrap;
   overflow: hidden;
   text-indent: -9999px;

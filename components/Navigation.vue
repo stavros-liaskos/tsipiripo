@@ -46,8 +46,8 @@
         </ul>
       </div>
 
-      <div class="accent accent-one hidden"></div>
-      <div class="accent accent-two hidden"></div>
+      <div class="accent accent-one"></div>
+      <div class="accent accent-two"></div>
     </div>
   </div>
 </template>

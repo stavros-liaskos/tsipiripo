@@ -1,5 +1,5 @@
 <template>
-  <div id="expertise" class="expertise section">
+  <div id="expertise" class="section">
 
     <headline-animated
       v-bind:class="['m-b-4']"
@@ -34,8 +34,11 @@
 <style lang="scss" scoped>
   @import '../assets/styles';
 
-  .expertise {
+  #expertise {
     text-align: center;
+    background-image: url('~/assets/img/box.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
 
     .expertise-card-container {
       display: flex;

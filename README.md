@@ -77,6 +77,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - https://alligator.io/vuejs/parallax-effect/
 - use nuxt-link instead of anchors
 - automate now deployment (delete previous [sleeping only?]instances)
+- check using online checker, if I need the cookie law. Otherwise, rm it 
 
 ## New Relic
 New Relic is used for both logging and keeping the application "awake".  
