@@ -34,10 +34,10 @@
       </div>
 
       <div class="bebe">
-        <img class="first" src="~/assets/img/letter_b.png">
-        <img class="second" src="~/assets/img/letter_e.png">
-        <img class="third" src="~/assets/img/letter_b.png">
-        <img class="forth" src="~/assets/img/letter_e.png">
+        <img class="first" src="~/assets/img/letter_b.png" alt="letter_b">
+        <img class="second" src="~/assets/img/letter_e.png" alt="letter_e">
+        <img class="third" src="~/assets/img/letter_b.png" alt="letter_b">
+        <img class="forth" src="~/assets/img/letter_e.png" alt="letter_e">
       </div>
     </div>
 

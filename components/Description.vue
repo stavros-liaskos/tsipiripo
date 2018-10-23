@@ -17,7 +17,7 @@
 
     <parallax-scene class="parallax-desc hidden" :scalar-x="250.0" :scalar-y="250.0">
       <parallax-layer :depth="0.33">
-        <img src="~/assets/img/flying_gift.png" style="top: 40px;" draggable="false" alt="">
+        <img src="~/assets/img/flying_gift.png" style="top: 40px;" draggable="false" alt="flying_gift">
       </parallax-layer>
     </parallax-scene>
 
