@@ -1,7 +1,7 @@
 <template>
   <footer id="footer" class="z-3 container">
     <div class="info">
-      <div class="m-b-3">
+      <div class="m-b-3 text-center">
         <h4 class="m-0 p-b-6">Επικοινωνία</h4>
 
         <p class="m-0 p-y-1"><strong>Τηλέφωνο:</strong></p>
@@ -14,7 +14,7 @@
         <p class="m-0 p-b-1" v-html="contact.address"></p>
       </div>
 
-      <div class="quick-links">
+      <div class="quick-links text-center">
         <h4 class="title hidden m-0 p-b-6">Σύνδεσμοι</h4>
 
         <div>
@@ -34,10 +34,20 @@
       </div>
 
       <div class="bebe">
-        <img class="first" src="~/assets/img/letter_b.png" alt="letter_b">
-        <img class="second" src="~/assets/img/letter_e.png" alt="letter_e">
-        <img class="third" src="~/assets/img/letter_b.png" alt="letter_b">
-        <img class="forth" src="~/assets/img/letter_e.png" alt="letter_e">
+        <parallax-scene class="parallax-desc" :scalar-x="10.0" :scalar-y="50.0">
+          <parallax-layer :depth="0.33">
+            <img class="first" src="~/assets/img/letter_b.png" alt="letter_b">
+          </parallax-layer>
+          <parallax-layer :depth=" 0.5">
+            <img class="second" src="~/assets/img/letter_e.png" alt="letter_e">
+          </parallax-layer>
+          <parallax-layer :depth=" 0.1">
+            <img class="third" src="~/assets/img/letter_b.png" alt="letter_b">
+          </parallax-layer>
+          <parallax-layer :depth=" 0.6">
+            <img class="fourth" src="~/assets/img/letter_e.png" alt="letter_e">
+          </parallax-layer>
+        </parallax-scene>
       </div>
     </div>
 
@@ -64,9 +74,13 @@
 <script>
   import contact from '~/assets/data/contact.json';
   import LogoStavros from '~/components/LogoStavros.vue';
+  import ParallaxScene from '~/components/ParallaxScene.vue';
+  import ParallaxLayer from '~/components/ParallaxLayer.vue';
 
   export default {
     components: {
+      ParallaxScene,
+      ParallaxLayer,
       LogoStavros
     },
 
@@ -80,10 +94,9 @@
   @import '../assets/styles';
 
   footer {
-    height: $footer_height;
+    // height: $footer_height; TODO
     display: flex;
     flex-direction: column;
-    @extend .text-center;
 
     .fab,
     .far {
@@ -132,23 +145,24 @@
     margin: $space_5 auto;
     width: 240px;
 
-    img {
-      //position: absolute;
-    }
-
     .first {
       transform: rotate(-45deg);
-      margin: 0 -3px -15px 0px;
+      margin-left: 0;
+    }
+
+    .second {
+      transform: rotate(-45deg);
+      margin-left: 50px;
     }
 
     .third {
       transform: rotate(15deg);
-      margin: 0 -3px -15px 0px;
+      margin-left: 100px;
     }
 
-    .forth {
+    .fourth {
       transform: rotate(45deg);
-      margin: 0 -3px -15px 0px;
+      margin-left: 150px;
     }
   }
 </style>
