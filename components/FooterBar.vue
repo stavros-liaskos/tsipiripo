@@ -41,7 +41,7 @@
           <parallax-layer :depth=" 0.5">
             <img class="second" src="~/assets/img/letter_e.png" alt="letter_e">
           </parallax-layer>
-          <parallax-layer :depth=" 0.1">
+          <parallax-layer :depth=" 0.4">
             <img class="third" src="~/assets/img/letter_b.png" alt="letter_b">
           </parallax-layer>
           <parallax-layer :depth=" 0.6">

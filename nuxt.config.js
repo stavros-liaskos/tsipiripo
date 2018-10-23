@@ -1,4 +1,4 @@
-// global.HTMLElement = typeof window === 'undefined' ? Object : window.HTMLElement;
+global.HTMLElement = typeof window === 'undefined' ? Object : window.HTMLElement;
 
 module.exports = {
   /*
