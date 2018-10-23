@@ -1,3 +1,4 @@
+/* eslint no-unused-vars: 0 */
 <template>
   <div id="description" class="section">
     <div class="title-wrapper">
@@ -14,23 +15,25 @@
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>
 
-    <div class="parallax-container">
-      <parallax :speed-factor="0.3" breakpoint="(min-width: 80px)">
-        <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg">
-      </parallax>
-    </div>
+    <parallax-scene class="parallax-desc hidden" :scalar-x="250.0" :scalar-y="250.0">
+      <parallax-layer :depth="0.33">
+        <img src="~/assets/img/flying_gift.png" style="top: 40px;" draggable="false" alt="">
+      </parallax-layer>
+    </parallax-scene>
 
   </div>
 </template>
 
 <script>
-  import Parallax from 'vue-parallaxy';
+  /* eslint no-unused-vars: 0 */
+  import ParallaxScene from '~/components/ParallaxScene.vue';
+  import ParallaxLayer from '~/components/ParallaxLayer.vue';
 
   export default {
     components: {
-      Parallax
+      ParallaxScene,
+      ParallaxLayer
     },
-
     computed: {
       typedTxt() {
         return ['Τα πάντα για το μωρό'];
@@ -72,7 +75,7 @@
     flex-direction: column;
     background-image: url('~/assets/img/flying_gift.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
 
     .title-wrapper {
       position: absolute;
@@ -97,18 +100,10 @@
     }
   }
 
-  .parallax-container {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100px;
-    height: 400px;
-    overflow: hidden;
-  }
-
   @include breakpoint($breakpoint_screen_sm) {
     #description {
       text-align: center;
+      background-image: none;
 
       .desc-title {
         margin: 0 $space_2;
@@ -116,6 +111,12 @@
 
       .scroll-promt {
         display: inline;
+      }
+
+      .parallax-desc {
+        display: block;
+        position: absolute;
+        right: 10%;
       }
     }
   }

@@ -1,3 +1,5 @@
+// global.HTMLElement = typeof window === 'undefined' ? Object : window.HTMLElement;
+
 module.exports = {
   /*
   ** Headers of the page

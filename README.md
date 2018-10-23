@@ -46,7 +46,8 @@ yarn deploy
 
 ## Useful Links
 - [Nuxt layouts](https://www.youtube.com/watch?v=YOKnSTp7d38)  
-- [Typed.js](https://www.npmjs.com/package/vue-typer#getting-started)
+- [Typed.js](https://www.npmjs.com/package/vue-typer#getting-started)   
+- [Parallax-js vue wrapper](https://gist.github.com/lbssousa/01b58d9c1f3123d66308d3cd46d73e78)
 
 ## TODO
 - [decrease font and icons file size](http://fontello.com/)
@@ -78,6 +79,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - use nuxt-link instead of anchors
 - automate now deployment (delete previous [sleeping only?]instances)
 - check using online checker, if I need the cookie law. Otherwise, rm it 
+
 
 ## New Relic
 New Relic is used for both logging and keeping the application "awake".  
