@@ -19,7 +19,7 @@
         imgDragon.addEventListener('transitionend', () => {
           window.setTimeout(() => {
             imgDragon.classList.remove('rotate');
-          }, 2500); // must be equal to $dragon_breathing_fire
+          }, 1000); // consult diagram below. Rotate -> maintain rotation
         }, false);
 
         imgFire.addEventListener('transitionend', () => {
@@ -36,25 +36,21 @@
 
   // On hover, dragon shakes then tilts up and breathes fire
   $dragon_height: 200px;
-  $dragon_shake: 1s;
-  $dragon_rotating: 0.5s;
-  $dragon_breathing_fire: 1s;
 
-  $dragon_rotating_delay: $dragon_shake; // start after shaking is over
-  $dragon_breathing_fire_delay: $dragon_rotating_delay + $dragon_rotating; // start after shaking and rotating is over
-
-  /*
-      time
+  /*  
+        |
         |
 Rotate  | initial delay         transition duration     maintain rotation
         |---------------------|----------------------|----------------------|
-        |     1s                      0.5s
+        |     1s                      0.5s                    1s
         |
         |
 Fire    |              initial delay                    transition duration
-        |--------------------------------------------|----------------------|
-        |                   1.5s                              1s
+        |--------------------------------------------|-----------|
+        |                   1.5s                          0.5s
         |
+
+      Time --->
   */
 
   .dragon {
@@ -67,7 +63,7 @@ Fire    |              initial delay                    transition duration
       right: 0;
       height: 100%;
       width: 66%;
-      transition: transform $dragon_rotating_delay ease-in-out $dragon_rotating;
+      transition: transform 0.5s ease-in-out 1s;
     }
 
     img:last-child {
@@ -77,7 +73,7 @@ Fire    |              initial delay                    transition duration
       transform: rotate(22deg);
       width: 33%;
       opacity: 0;
-      transition: opacity $dragon_breathing_fire_delay cubic-bezier(.32, .62, .53, .82) $dragon_breathing_fire;
+      transition: opacity 0.5s cubic-bezier(.32, .62, .53, .82) 1.5s;
     }
   }
 
