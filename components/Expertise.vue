@@ -46,9 +46,6 @@
 
   #expertise {
     text-align: center;
-    background-image: url('~/assets/img/box.png');
-    background-repeat: no-repeat;
-    background-position: bottom left;
 
     .expertise-card-container {
       display: flex;

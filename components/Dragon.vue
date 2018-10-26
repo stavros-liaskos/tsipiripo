@@ -22,7 +22,7 @@
           }, 1000); // consult diagram below. Rotate -> maintain rotation
         }, false);
 
-        imgFire.addEventListener('transitionend', () => {
+        imgFire.addEventListener('animationend', () => {
           console.warn('end');
           imgFire.classList.remove('grow');
         }, false);
@@ -37,18 +37,23 @@
   // On hover, dragon shakes then tilts up and breathes fire
   $dragon_height: 200px;
 
-  /*  
-        |
-        |
-Rotate  | initial delay         transition duration     maintain rotation
-        |---------------------|----------------------|----------------------|
-        |     1s                      0.5s                    1s
-        |
-        |
-Fire    |              initial delay                    transition duration
-        |--------------------------------------------|-----------|
-        |                   1.5s                          0.5s
-        |
+  /*
+        |           |
+        |           |
+Shake   |           | initial delay         transition duration     maintain rotation
+        |-----------|---------------------|----------------------|----------------------|
+        |           |
+        |           |
+        |           |
+Rotate  |           | initial delay         transition duration     maintain rotation
+        |-----------|---------------------|----------------------|----------------------|
+        |           |     1s                      0.5s                    1s
+        |           |
+        |           |
+Fire    |           |              initial delay                    transition duration
+        |-----------|--------------------------------------------|-----------|
+        |           |                   1.7s                          1.3s
+        |           |
 
       Time --->
   */
@@ -70,25 +75,28 @@ Fire    |              initial delay                    transition duration
       position: absolute;
       right: 66%;
       top: 22%;
-      transform: rotate(22deg);
       width: 33%;
       opacity: 0;
-      transition: opacity 0.5s cubic-bezier(.32, .62, .53, .82) 1.5s;
     }
   }
 
   // show and grow animation
   .grow {
-    opacity: 1 !important;
-    // animation: createBox $animation_delay ease-in-out .25s;
+    animation: createBox 1.3s ease-in-out 1.7s;
   }
 
   @keyframes createBox {
-    from {
-      transform: scale(0);
+    10% {
+      transform: scale(0) rotate(22deg);
+      opacity: 0;
     }
-    to {
-      transform: scale(1);
+    20%, 80% {
+      transform: scale(1) rotate(22deg);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0) rotate(22deg);
+      opacity: 0;
     }
   }
 
