@@ -15,13 +15,23 @@
                       v-bind:key="index"
       />
     </div>
+
+    <dragon/>
   </div>
 </template>
 
 <script>
   import {expertiseCards, expetiseMainContent} from '~/assets/data/expertise.json';
+  import ParallaxScene from '~/components/ParallaxScene.vue';
+  import ParallaxLayer from '~/components/ParallaxLayer.vue';
+  import Dragon from '~/components/Dragon.vue';
 
   export default {
+    components: {
+      ParallaxScene,
+      ParallaxLayer,
+      Dragon
+    },
     data() {
       return {
         expertiseCards,

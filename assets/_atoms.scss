@@ -655,7 +655,6 @@ $pulse_4: #d8f6e7;
 @include breakpoint($breakpoint_screen_md) {
   .section {
     min-height: calc(100vh - 60px);
-    overflow: auto;
     margin-bottom: $space_7;
 
     &:last-of-type {

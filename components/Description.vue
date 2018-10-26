@@ -4,7 +4,9 @@
     <div class="title-wrapper">
       <h1 class="desc-title">Τσιπιρίπο Bebe</h1>
 
+<!--
       <vue-typer v-bind="{text: typedTxt}" initial-action='typing' pre-type-delay='500'></vue-typer>
+-->
     </div>
 
 
