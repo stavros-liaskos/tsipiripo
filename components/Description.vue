@@ -4,20 +4,16 @@
     <div class="title-wrapper">
       <h1 class="desc-title">Τσιπιρίπο Bebe</h1>
 
-<!--
+
       <vue-typer v-bind="{text: typedTxt}" initial-action='typing' pre-type-delay='500'></vue-typer>
--->
     </div>
 
 
     <div class="learn-more text-center">
-      <!--<nuxt-link to="/" v-scroll-to="'#expertise'" class="scroll-promt">
-        Δείτε περισσότερα<br>
-      </nuxt-link>-->
       <nuxt-link to="/" v-scroll-to="'#expertise'" class="dis-txt p-3 fas fa-arrow-down bounce h4"></nuxt-link>
     </div>
 
-    <parallax-scene class="parallax-desc hidden" :scalar-x="250.0" :scalar-y="250.0">
+    <parallax-scene class="parallax-desc hidden" :scalar-x="100.0" :scalar-y="100.0">
       <parallax-layer :depth="0.33">
         <img src="~/assets/img/flying_gift.png" style="top: 40px;" draggable="false" alt="flying_gift">
       </parallax-layer>

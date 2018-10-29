@@ -103,19 +103,19 @@
     }
 
     50% {
-      transform: rotate(0.5deg);
-    }
-
-    55% {
       transform: rotate(1deg);
     }
 
-    60% {
+    55% {
       transform: rotate(2deg);
     }
 
-    65% {
+    60% {
       transform: rotate(3deg);
+    }
+
+    65% {
+      transform: rotate(4deg);
     }
 
     70% {

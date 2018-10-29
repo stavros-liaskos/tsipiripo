@@ -1,7 +1,7 @@
 <template>
   <footer id="footer" class="z-3 container">
     <div class="info">
-      <div class="m-b-3 text-center">
+      <div class="contact m-b-3 text-center">
         <h4 class="m-0 p-b-6">Επικοινωνία</h4>
 
         <p class="m-0 p-y-1"><strong>Τηλέφωνο:</strong></p>
@@ -54,9 +54,6 @@
     <div class="text-center">
       <br>
       <a href="https://stavrosliaskos.com" target="_blank">
-        <!--
-                <img class="pull-left mr-15 relative" src="~/assets/img/stavros_logo.png" width="28" height="28">
-        -->
         <logo-stavros/>
         <span style="margin-left:10px; color: #666">Powered by Stavros Liaskos</span>
       </a>
@@ -131,8 +128,13 @@
       }
 
       .quick-links {
+        text-align: right;
         margin: 0;
         order: 2;
+      }
+
+      .contact {
+        text-align: left;
       }
 
       .title {
