@@ -1,5 +1,5 @@
 <template>
-  <div class="dragon" v-on:mouseover="firebreathe">
+  <div class="dragon-cage" v-on:mouseover="firebreathe">
     <img src="~/assets/img/dragon.png" alt="dragon">
     <img src="~/assets/img/fire.png" alt="fire">
   </div>
@@ -13,13 +13,11 @@
           imgDragon = el.getElementsByTagName('img')[0],
           imgFire = el.getElementsByTagName('img')[1];
 
-        imgDragon.classList.add('rotate');
+        imgDragon.classList.add('dragon');
         imgFire.classList.add('grow');
 
-        imgDragon.addEventListener('transitionend', () => {
-          window.setTimeout(() => {
-            imgDragon.classList.remove('rotate');
-          }, 1000); // consult diagram below. Rotate -> maintain rotation
+        imgDragon.addEventListener('animationend', () => {
+          imgDragon.classList.remove('dragon');
         }, false);
 
         imgFire.addEventListener('animationend', () => {
@@ -37,28 +35,7 @@
   // On hover, dragon shakes then tilts up and breathes fire
   $dragon_height: 200px;
 
-  /*
-        |           |
-        |           |
-Shake   |           | initial delay         transition duration     maintain rotation
-        |-----------|---------------------|----------------------|----------------------|
-        |           |
-        |           |
-        |           |
-Rotate  |           | initial delay         transition duration     maintain rotation
-        |-----------|---------------------|----------------------|----------------------|
-        |           |     1s                      0.5s                    1s
-        |           |
-        |           |
-Fire    |           |              initial delay                    transition duration
-        |-----------|--------------------------------------------|-----------|
-        |           |                   1.7s                          1.3s
-        |           |
-
-      Time --->
-  */
-
-  .dragon {
+  .dragon-cage {
     position: relative;
     height: $dragon_height;
     width: calc(#{$dragon_height} + 100px);
@@ -68,24 +45,23 @@ Fire    |           |              initial delay                    transition d
       right: 0;
       height: 100%;
       width: 66%;
-      transition: transform 0.5s ease-in-out 1s;
     }
 
     img:last-child {
       position: absolute;
       right: 66%;
-      top: 22%;
+      top: 20%;
       width: 33%;
       opacity: 0;
     }
   }
 
-  // show and grow animation
+  // show and grow fire
   .grow {
-    animation: createBox 1.3s ease-in-out 1.7s;
+    animation: fire 1.1s ease-in-out 2s;
   }
 
-  @keyframes createBox {
+  @keyframes fire {
     10% {
       transform: scale(0) rotate(22deg);
       opacity: 0;
@@ -100,27 +76,74 @@ Fire    |           |              initial delay                    transition d
     }
   }
 
-  // rotate animation
-  .rotate {
-    transform: rotate(5deg);
+  // shake and rotate dragon
+  .dragon {
+    animation: dragon 3.3s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
   }
 
-  // shake animation
-  @keyframes shake {
-    10%, 90% {
+  // dragon animation
+  @keyframes dragon {
+    5%, 45% {
       transform: translate3d(-1px, 0, 0);
     }
 
-    20%, 80% {
+    10%, 40% {
       transform: translate3d(2px, 0, 0);
     }
 
-    30%, 50%, 70% {
+    15%, 25%, 35% {
       transform: translate3d(-4px, 0, 0);
     }
 
-    40%, 60% {
+    20%, 30% {
       transform: translate3d(4px, 0, 0);
+    }
+
+    50% {
+      transform: rotate(0.5deg);
+    }
+
+    55% {
+      transform: rotate(1deg);
+    }
+
+    60% {
+      transform: rotate(2deg);
+    }
+
+    65% {
+      transform: rotate(3deg);
+    }
+
+    70% {
+      transform: rotate(5deg);
+    }
+
+    75% {
+      transform: rotate(5deg);
+    }
+
+    80% {
+      transform: rotate(5deg);
+    }
+
+    85% {
+      transform: rotate(5deg);
+    }
+
+    90% {
+      transform: rotate(3deg);
+    }
+
+    95% {
+      transform: rotate(1deg);
+    }
+
+    100% {
+      transform: rotate(.5deg);
     }
   }
 

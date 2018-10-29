@@ -16,7 +16,7 @@
       />
     </div>
 
-    <dragon/>
+    <dragon :style="{margin: '0 auto'}"/>
   </div>
 </template>
 
