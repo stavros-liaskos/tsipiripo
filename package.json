@@ -16,6 +16,7 @@
     "test": "nyc ava --serial --verbose",
     "image": "bash image_cropper.sh",
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
+    "now-build": "nuxt build --spa",
     "deploy": "now rm -y tsipiripo && now -e NEW_RELIC_LICENSE_KEY=c12ab99178bcdf33621f686b8dab7e8515484174 && now alias"
   },
   "engines": {

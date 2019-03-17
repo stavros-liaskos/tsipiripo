@@ -2,6 +2,10 @@
 	<img width="800" src="medpng" alt="stavrosliaskos">
 </h1>
 
+
+# WIP PROJECT!
+https://github.com/gilbarbara/react-joyride/issues/131#issuecomment-253319816
+
 > My Nuxt.js based developer website
 
 [![Build Status](https://travis-ci.org/stavros-liaskos/stavrosliaskos.svg?branch=master)](https://travis-ci.org/stavros-liaskos/stavrosliaskos) [![Greenkeeper badge](https://badges.greenkeeper.io/stavros-liaskos/stavrosliaskos.svg)](https://greenkeeper.io/) [![Coverage Status](https://coveralls.io/repos/github/stavros-liaskos/stavrosliaskos/badge.svg?branch=master)](https://coveralls.io/github/stavros-liaskos/stavrosliaskos?branch=master)
